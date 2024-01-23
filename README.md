@@ -7,11 +7,42 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Projeto de Rede Social em React
 
-- Configure the top-level `parserOptions` property like this:
+Descrição:
+Este projeto consiste em uma rede social desenvolvida em React, criada com o objetivo principal de aprimorar conhecimentos na linguagem de programação. A aplicação visa proporcionar uma experiência prática e hands-on na construção de interfaces web interativas utilizando React.
+
+Recursos Principais:
+
+Interface de usuário moderna e responsiva.
+Funcionalidades típicas de uma rede social, como postagens, perfis de usuários e interações.
+Utilização de conceitos avançados do React para construção eficiente e escalável.
+Motivação:
+O foco deste projeto é oferecer um ambiente de aprendizado prático, permitindo a exploração e aplicação de conceitos avançados de React, enquanto cria uma aplicação funcional e interativa.
+
+Como Contribuir:
+
+Faça um fork do repositório.
+Clone o repositório para a sua máquina local.
+Implemente melhorias ou correções.
+Envie um pull request com uma descrição detalhada das alterações.
+Pré-requisitos:
+
+Conhecimento básico em React.
+Node.js e npm instalados.
+
+Instruções de Uso:
+
+Instale as dependências usando npm install.
+Execute o aplicativo localmente com npm start.
+Acesse a aplicação em http://localhost:3000 no navegador.
+
+Aviso:
+Este projeto é principalmente educativo e destinado ao aprimoramento pessoal. Não é recomendado para uso em produção.
+
+Licença:
+Este projeto foi produzido Rafael Dargoni sob as intruções da instituição RockeatSeat .
 
 ```js
 export default {
